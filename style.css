@@ -1,0 +1,120 @@
+.portfolio {
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+    "Yu Mincho", "MS PMincho", serif;
+  background-color: #ceefe4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.myname {
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px #77aaad;
+}
+
+.myname-a {
+  font-size: 55px;
+}
+
+.myname-b {
+  font-size: 28px;
+}
+
+.myinfo {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #0066c0;
+}
+
+a:hover {
+  color: rgb(21, 149, 253);
+  text-decoration: underline;
+}
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f4f0e6;
+}
+.hobby-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.hobby-container {
+  display: flex;
+  font-weight: 600;
+}
+
+.book {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.video {
+  margin-bottom: 20px;
+}
+.pet {
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #d9d9f3;
+}
+.pet-title {
+  margin-top: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.images {
+  height: 210px;
+  width: 280px;
+  max-width: 280px;
+  max-height: 210px;
+  width: auto;
+  height: auto;
+}
+
+.new-image {
+  display: flex;
+  justify-content: flex-end;
+  width: 310px;
+  margin-top: 5px;
+}
+button {
+  font-size: 11px;
+  font-weight: 500;
+  background: linear-gradient(to bottom, #97e9ce, #77af9c);
+  border: 1px #77af9c solid;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+button:hover {
+  background: #77af9c;
+}
+
+.new-image {
+  margin-bottom: 25px;
+}
